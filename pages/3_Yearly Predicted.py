@@ -14,7 +14,7 @@ from reportlab.lib import colors
 
 
 st.set_page_config(page_title="Predictions", page_icon="📊", layout="wide")
-logo = Image.open("D:\College\Sem 4\DAVL\Project\Code\code\Images\logo.jpg")
+logo = Image.open("Images/logo.jpg")
 st.image(logo, width=100)
 gif_url = "https://ewscripps.brightspotcdn.com/dims4/default/7c4e68f/2147483647/strip/true/crop/800x450+0+0/resize/320x180!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F3d%2F82%2Fcd5de20740f5b50f843fab609997%2Fcaraccidentgif-storyblocks.gif"
 st.sidebar.image(gif_url, use_column_width=True)
@@ -122,8 +122,8 @@ st.markdown("<h6 style='text-align: left; color:white;font-size: 15px; font-fami
 
 #tab1, tab2= st.tabs(["OverAll Prediction🔮", "Statewise prediction🗺️"])
 
-data=pd.read_excel("D:\College\Sem 4\DAVL\Project\Code\code\Predictions/predicted_values.xlsx")
-data1=pd.read_excel("D:\College\Sem 4\DAVL\Project\Code\code\Accident Dataset/1970-2021 data.xlsx")
+data=pd.read_excel("Predictions/predicted_values.xlsx")
+data1=pd.read_excel("Accident Dataset/1970-2021 data.xlsx")
 if st.button("Open Excel"):
     if st.button("Close Excel"):
         data1 = None
