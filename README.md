@@ -23,6 +23,7 @@ The analytical backbone is a Time Series Forecasting model known as Auto Regress
 PowerBI is employed for effective data visualization. Interactive dashboards provide a comprehensive view, facilitating the identification of patterns, trends, and correlations in road accident data.
 
 
+
 <p float="left">
   <img src="https://github.com/Sreenidhi-1/Road-Accident-Analysis-and-Prediction/assets/91629420/4dc51cc5-9a16-4a5a-9f06-b5110c16690f" width="300" />
   <img src="https://github.com/Sreenidhi-1/Road-Accident-Analysis-and-Prediction/assets/91629420/2466e3ac-588f-436c-a1f6-ff18f7e7600b" width="300"/>
@@ -30,3 +31,11 @@ PowerBI is employed for effective data visualization. Interactive dashboards pro
   <img src="https://github.com/Sreenidhi-1/Road-Accident-Analysis-and-Prediction/assets/91629420/eb7d448c-1df6-49b6-b20a-5e8462a5b91f" width="300" /> 
 </p>
 
+
+### References
+
+This project relies on data and information from the following sources:
+
+- [Ministry of Road Transport and Highways, Government of India](https://morth.nic.in/)
+- [NDTV - Road Accidents](https://www.ndtv.com/topic/road-accidents)
+- [Border Roads Organization - Road Accident Statistics (PDF)](https://bro.gov.in/WriteReadData/linkimages/5768690382-14.pdf)
