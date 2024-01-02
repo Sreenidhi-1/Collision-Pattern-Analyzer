@@ -14,14 +14,9 @@ The project is driven by the Ministry of Road Transport and Highways, Government
 ### Analysis Model
 The analytical backbone is a Time Series Forecasting model known as Auto Regressive Integrated Moving Average (ARIMA). Trained on data up to 2019, the model undergoes rigorous testing on 2020 and 2021 datasets, providing predictions for accident rates from 2022 to 2031. Seasonality and trend considerations are incorporated for accurate forecasting.
 
-<p float="left">
-  <img src="https://github.com/Sreenidhi-1/Road-Accident-Analysis-and-Prediction/assets/91629420/28693f97-f17a-47f3-9206-af32092519cd" width="300" />
-  <img src="https://github.com/Sreenidhi-1/Road-Accident-Analysis-and-Prediction/assets/91629420/ef29e699-0f13-41cf-8ea0-39b408d0f2a7" width="300"/>
-  
-</p>
 
-<!img width="495" alt="image" src="https://github.com/Sreenidhi-1/Road-Accident-Analysis-and-Prediction/assets/91629420/28693f97-f17a-47f3-9206-af32092519cd">
-<!img width="888" alt="image" src="https://github.com/Sreenidhi-1/Road-Accident-Analysis-and-Prediction/assets/91629420/ef29e699-0f13-41cf-8ea0-39b408d0f2a7">
+<img width="495" alt="image" src="https://github.com/Sreenidhi-1/Road-Accident-Analysis-and-Prediction/assets/91629420/28693f97-f17a-47f3-9206-af32092519cd">
+
 
 
 ### Data Visualization
