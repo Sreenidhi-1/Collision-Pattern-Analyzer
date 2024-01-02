@@ -1,9 +1,12 @@
+<img width="73" alt="image" src="https://github.com/Sreenidhi-1/Road-Accident-Analysis-and-Prediction/assets/91629420/92ca16e2-c5f8-4782-84d4-abb7f427d71b">
 
 # Collision-Pattern-Analyzer
 
+Road accident analysis involves repositories related to analyzing various aspects of road accidents, including their causes, patterns, and consequences and thereby predicted the future causes and to provide insights that can help improve road safety, reduce accidents, and minimize their impact on society.
+
 <img width="920" alt="image" src="https://github.com/Sreenidhi-1/Road-Accident-Analysis-and-Prediction/assets/91629420/23fa2204-9641-4acb-b553-46f14aa23f3e">
 
-Road accident analysis involves repositories related to analyzing various aspects of road accidents, including their causes, patterns, and consequences and thereby predicted the future causes and to provide insights that can help improve road safety, reduce accidents, and minimize their impact on society.
+
 
 ### Dataset
 The project is driven by the Ministry of Road Transport and Highways, Government of India, and leverages insights from a comprehensive dataset obtained from https://morth.nic.in/.
