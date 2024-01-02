@@ -6,12 +6,12 @@ import pandas as pd
 import folium
 
 st.set_page_config(page_title="Predictions", page_icon="📊", layout="wide")
-logo = Image.open("D:\College\Sem 4\DAVL\Project\Code\code\Images\logo.jpg")
+logo = Image.open("Images/logo.jpg")
 st.image(logo, width=100)
-df2=pd.read_excel("D:\College\Sem 4\DAVL\Project\Code\code\Predictions\statewise_injured.xlsx")
-df3=pd.read_excel("D:\College\Sem 4\DAVL\Project\Code\code\Predictions\statewise_Killed.xlsx")
-df1=pd.read_excel("D:\College\Sem 4\DAVL\Project\Code\code\Predictions\statewise_Accidents.xlsx")
-data1=pd.read_excel("D:\College\Sem 4\DAVL\Project\Code\code\Accident Dataset/2018-2021 data.xlsx")
+df2=pd.read_excel("Predictions/statewise_injured.xlsx")
+df3=pd.read_excel("Predictions/statewise_Killed.xlsx")
+df1=pd.read_excel("Predictions/statewise_Accidents.xlsx")
+data1=pd.read_excel("Accident Dataset/2018-2021 data.xlsx")
 state_names = df1["State/UT"].unique()
 years = df1.columns[1:-1].tolist()
 selected_state = st.sidebar.selectbox("Select a state", state_names)
@@ -42,9 +42,9 @@ if chosen_id=="tab1":
     st.write(df1)
     st.subheader("Map Visualization")
     m = folium.Map(location=[20.5937, 78.9629], zoom_start=4,tiles='CartoDB dark_matter')
-    df_locations = pd.read_csv("D:\College\Sem 4\DAVL\Project\Code\code\Accident Dataset/statewise_loactions.csv")
+    df_locations = pd.read_csv("Accident Dataset/statewise_loactions.csv")
     marker_icon = folium.features.CustomIcon(
-        'D:\College\Sem 4\DAVL\Project\Code\code\Images/marker_icon.png',
+        'Images/marker_icon.png',
         icon_size=(30, 30)
     )
 
@@ -79,9 +79,9 @@ elif chosen_id=="tab2":
     st.write(df2)
     st.subheader("Map Visualization")
     m = folium.Map(location=[20.5937, 78.9629], zoom_start=4,tiles='CartoDB dark_matter')
-    df_locations = pd.read_csv("D:\College\Sem 4\DAVL\Project\Code\code\Accident Dataset/statewise_loactions.csv")
+    df_locations = pd.read_csv("Accident Dataset/statewise_loactions.csv")
     marker_icon = folium.features.CustomIcon(
-        'D:\College\Sem 4\DAVL\Project\Code\code\Images/marker_icon.png',
+        'Images/marker_icon.png',
         icon_size=(30, 30)
     )
 
@@ -114,9 +114,9 @@ elif chosen_id=="tab3":
     st.write(df3)
     st.subheader("Map Visualization")
     m = folium.Map(location=[20.5937, 78.9629], zoom_start=4,tiles='CartoDB dark_matter')
-    df_locations = pd.read_csv("D:\College\Sem 4\DAVL\Project\Code\code\Accident Dataset/statewise_loactions.csv")
+    df_locations = pd.read_csv("Accident Dataset/statewise_loactions.csv")
     marker_icon = folium.features.CustomIcon(
-        'D:\College\Sem 4\DAVL\Project\Code\code\Images/marker_icon.png',
+        'Images/marker_icon.png',
         icon_size=(30, 30)
     )
 
