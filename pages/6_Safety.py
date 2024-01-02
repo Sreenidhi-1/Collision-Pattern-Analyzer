@@ -5,7 +5,7 @@ from IPython.display import IFrame
 from streamlit.components.v1 import components
 
 st.set_page_config(page_title="Safety", page_icon="💞", layout="wide")
-logo = Image.open("D:\College\Sem 4\DAVL\Project\Code\code\Images\logo.jpg")
+logo = Image.open("Images/logo.jpg")
 st.image(logo, width=100)
 gif_url = "https://ewscripps.brightspotcdn.com/dims4/default/7c4e68f/2147483647/strip/true/crop/800x450+0+0/resize/320x180!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F3d%2F82%2Fcd5de20740f5b50f843fab609997%2Fcaraccidentgif-storyblocks.gif"
 st.sidebar.image(gif_url, use_column_width=True)
@@ -25,23 +25,23 @@ with tab1:
     stx.TabBarItemData(id="tab6", title="👨‍👩‍👧‍👦", description="Rules for everyone")
     ])
     if chosen_id=="tab1":
-        with open("D:\College\Sem 4\DAVL\Project\Code\code\Safety Rules/Rules.txt", "r") as f:
+        with open("Safety Rules/Rules.txt", "r") as f:
             text_content = f.read()
         st.text(text_content)
     elif chosen_id=="tab2":
-        with open("D:\College\Sem 4\DAVL\Project\Code\code\Safety Rules/car_rules.txt", "r") as f:
+        with open("Safety Rules/car_rules.txt", "r") as f:
             text_content = f.read()
         st.text(text_content)
     elif chosen_id=="tab3":
-        with open("D:\College\Sem 4\DAVL\Project\Code\code\Safety Rules/bike_rules.txt", "r") as f:
+        with open("Safety Rules/bike_rules.txt", "r") as f:
             text_content = f.read()
         st.text(text_content)
     elif chosen_id=="tab4":
-        with open("D:\College\Sem 4\DAVL\Project\Code\code\Safety Rules/kid_rules.txt", "r") as f:
+        with open("Safety Rules/kid_rules.txt", "r") as f:
             text_content = f.read()
         st.text(text_content)
     elif chosen_id=="tab5":
-        with open("D:\College\Sem 4\DAVL\Project\Code\code\Safety Rules/road_issues.txt", "r") as f:
+        with open("Safety Rules/road_issues.txt", "r") as f:
             text_content = f.read()
         st.text(text_content)
     elif chosen_id=="tab6":
@@ -52,7 +52,7 @@ with tab1:
         }}
     </style>
     """, unsafe_allow_html=True)
-        with open("D:\College\Sem 4\DAVL\Project\Code\code\Safety Rules/rules_everyone.txt", "r") as f:
+        with open("Safety Rules/rules_everyone.txt", "r") as f:
             text_content = f.read()
         st.text(text_content)
 
