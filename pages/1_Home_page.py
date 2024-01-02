@@ -6,7 +6,7 @@ import time
 st.set_page_config(page_title="Accident Analysis", page_icon="🤕", layout="wide")
 gif_url = "https://ewscripps.brightspotcdn.com/dims4/default/7c4e68f/2147483647/strip/true/crop/800x450+0+0/resize/320x180!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F3d%2F82%2Fcd5de20740f5b50f843fab609997%2Fcaraccidentgif-storyblocks.gif"
 st.sidebar.image(gif_url, use_column_width=True)
-logo = Image.open("D:\College\Sem 4\DAVL\Project\Code\code\Images\logo.jpg")
+logo = Image.open("Images/logo.jpg")
 st.image(logo, width=100)
 st.sidebar.write("More info : https://morth.nic.in/")
 st.markdown("<h1 style='text-align: center; color:white; font-family: Comic Sans MS;'>THE COST OF CARELESSNESS</h1>", unsafe_allow_html=True)
@@ -263,7 +263,7 @@ with tab1:
     text = "Every year, approximately 1.5 lakh people dies on India roads, which translate, on an average, into 1130 accidents and 422 deaths every day or 47 accidents and 18 deaths every hour."
     st.info(text)
     size=(1100,500)
-    image_paths = ['D:/College/Sem 4/DAVL/Project/Code/code/Images/accident_onedeath.jpg', 'D:\College\Sem 4\DAVL\Project\Code\code\Images/bike.jpg','D:\College\Sem 4\DAVL\Project\Code\code\Images/vehicle.jpg', 'D:\College\Sem 4\DAVL\Project\Code\code\Images/truck.jpg','D:\College\Sem 4\DAVL\Project\Code\code\Images/sch_bus.jpg','D:\College\Sem 4\DAVL\Project\Code\code\Images/accident4.jpg']
+    image_paths = ['Images/accident_onedeath.jpg', 'Images/bike.jpg','Images/vehicle.jpg', 'Images/truck.jpg','Images/sch_bus.jpg','Images/accident4.jpg']
     delay = 3
     image_placeholder = st.empty()
     index = 0
