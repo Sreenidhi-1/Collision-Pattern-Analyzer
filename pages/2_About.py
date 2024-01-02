@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 st.set_page_config(page_title="About", page_icon="⁉️", layout="wide")
-logo = Image.open("D:\College\Sem 4\DAVL\Project\Code\code\Images\logo.jpg")
+logo = Image.open('Images/logo.jpg')
 st.image(logo, width=100)
 gif_url = "https://ewscripps.brightspotcdn.com/dims4/default/7c4e68f/2147483647/strip/true/crop/800x450+0+0/resize/320x180!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F3d%2F82%2Fcd5de20740f5b50f843fab609997%2Fcaraccidentgif-storyblocks.gif"
 st.sidebar.image(gif_url, use_column_width=True)
