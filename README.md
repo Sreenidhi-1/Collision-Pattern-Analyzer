@@ -32,10 +32,3 @@ PowerBI is employed for effective data visualization. Interactive dashboards pro
 </p>
 
 
-### References
-
-This project relies on data and information from the following sources:
-
-- [Ministry of Road Transport and Highways, Government of India](https://morth.nic.in/)
-- [NDTV - Road Accidents](https://www.ndtv.com/topic/road-accidents)
-- [Border Roads Organization - Road Accident Statistics (PDF)](https://bro.gov.in/WriteReadData/linkimages/5768690382-14.pdf)
