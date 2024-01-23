@@ -12,7 +12,7 @@ Road accident analysis involves repositories related to analyzing various aspect
 The project is driven by the Ministry of Road Transport and Highways, Government of India, and leverages insights from a comprehensive dataset obtained from https://morth.nic.in/.
 
 ### Analysis Model
-The analytical backbone is a Time Series Forecasting model known as Auto Regressive Integrated Moving Average (ARIMA). Trained on data up to 2019, the model undergoes rigorous testing on 2020 and 2021 datasets, providing predictions for accident rates from 2022 to 2031. Seasonality and trend considerations are incorporated for accurate forecasting.
+The analytical backbone is a Time Series Forecasting model utilizing **Random Forest Regressor**. Trained on data up to 2019, the model undergoes rigorous testing on 2020 and 2021 datasets, providing predictions for accident rates from 2022 to 2031. Seasonality and trend considerations are incorporated for accurate forecasting.
 
 
 <img width="495" alt="image" src="https://github.com/Sreenidhi-1/Road-Accident-Analysis-and-Prediction/assets/91629420/28693f97-f17a-47f3-9206-af32092519cd">
